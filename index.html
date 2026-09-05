@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/toDo.css">
+    x<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>To - Do List</title>
+</head>
+  
+<body>
+    <!-- create acontainer for the to-do list -->
+    <div id="todocontainer">
+        <!-- to do list header -->
+        <div id="header">
+            <h1>To-Do List</h1>
+        </div>
+        <!-- create inbox code to type in a new task  -->
+        <div>
+            <input id="inputBox" type="text" name="inputBox" placeholder="Add Task" />
+            <!-- add a button -->
+            <button id="inputButton">Add</button>
+        </div>
+        <!-- task list -->
+        <h2>Task List</h2>
+        <!-- where we will display each task  -->
+        <ul id="listContainer">
+            <!-- 
+        <label>
+            <input type="checkbox">
+            <span>${task}</span>
+        </label>
+        <span class="editBin">Edit</span>
+        <span class="deleteBin">Delete</span>-->
+            <!-- ^^^ this does not work in the html becasue it only on the first list item and so i had to move it to the javascript so it attaches to all the list items as they ppear -->
+        </ul>
+    </div>
+    <!-- <hr /> used to seperate the completion from the task container but weill not use becuase seperation of concers this is for styling-->
+    <!-- task list counter -->
+    <div class="counterContainer">
+        <div id="taskCounters">
+            Completed: <span id="completedCounter">0</span> | Uncompleted:
+            <span id="uncompletedCounter">0</span>
+        </div>
+    </div>
+<div class="emoji"></div>
+    <script src="js/toDo.js"></script>
+</body>
+</html>

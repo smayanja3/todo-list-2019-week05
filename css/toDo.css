@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    text-align:center;
+    font-style: normal;
+    margin-top:50px;
+    background:rgb(123,91,180);
+    color:rgb(3, 9, 31)
+}
+
+
+/* WHOLE CONTAINER */
+#todocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    margin:0 auto;
+    box-shadow: 0 4px 20px rgba(69,76,104, 0.9);
+    padding:20px;
+    border-radius: 15px;
+    cursor: pointer;
+    /* background:rgb(241,209,141) */
+    background-image: linear-gradient(to left, rgb(241, 195, 116), rgb(226, 136, 139));
+
+
+}
+
+#header{
+    margin: 5px;
+    font-size: 1.3rem;
+    /* text-align: center; */
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+#inputBox{
+    width:200px;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 5px;
+    /* margin-right:5px; */
+    font-size: 1rem;
+}
+
+#inputButton{
+    font-size: 1rem;
+    cursor: pointer;
+    transition:0.4s;
+    padding:10px;
+    border-radius: 5px;
+    /* background: */
+}
+#inputButton:hover{
+    background: rgb(69,76,104)
+}
+
+/* LIST CONTAINER */
+ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+    
+}
+
+li{
+    border:1px solid white;
+    border-radius:5px;
+    margin:10px 0;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.editBin, .deleteBin{
+    text-align:right;
+    margin: 3px 5px;
+    padding:3px 5px;
+}
+
+
+/* COUNTER CONTAINER */
+
+.counterContainer{
+    margin-top:20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+    border: 1px solid black;
+}
+
+
