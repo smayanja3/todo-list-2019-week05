@@ -49,4 +49,18 @@ One of the biggest things I practiced was **DOM manipulation**—using JavaScrip
 
 I also gained more experience working with **functions, event listeners, checkboxes, and conditional logic** while learning how different parts of an application work together.
 
+## 🚀 Running the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/smayanja3/todo-list-2019-week05.git
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in your browser.
+
+4. Start adding tasks to your list! 🎮✅
+
 Thanks for checking out my project! 🎮✨
