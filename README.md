@@ -1,22 +1,50 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# 🎮 Todo List
 
-### Goal: Build a Simple Todo List
+A fun an interactive **video-game-themed Todo List**
 
-### How to submit your code for review:
+This project was created using **HTML, CSS, and JavaScript** and allows users to create tasks, mark them as completed, edit them, and keep track of their completed and uncompleted tasks.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## ✨ Features
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- ✏️ Edit existing tasks
+- 📊 Track completed tasks
+- 📝 Track uncompleted tasks
+- 🎮 Fun video-game-inspired design
+- ⚡ Interactive functionality using JavaScript
+- 📱 Simple and user-friendly interface
+
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## 🎯 Project Goal
+
+The goal of this challenge was to build a functional Todo List where users could create and manage their tasks.
+
+The application allows users to add tasks and interact with them while dynamically updating the information displayed on the page.
+
+This project helped me practice working with:
+
+- JavaScript functions
+- Arrays
+- Variables and scope
+- DOM manipulation
+- Event listeners
+- Checkboxes
+- Conditional logic
+- Dynamically creating HTML elements
+- Updating information on the page
+
+## 💡 What I Learned
+
+This project gave me more practice using JavaScript to make a webpage interactive.
+
+One of the biggest things I practiced was **DOM manipulation**—using JavaScript to create, change, and update elements on the page based on what the user does.
+
+I also gained more experience working with **functions, event listeners, checkboxes, and conditional logic** while learning how different parts of an application work together.
+
+Thanks for checking out my project! 🎮✨
