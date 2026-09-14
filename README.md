@@ -1,6 +1,7 @@
 # 🎮 Todo List
 
 A fun an interactive **video-game-themed Todo List**
+
 ![Todo List Project Screenshot](todo-list-screenshot.png)
 
 This project was created using **HTML, CSS, and JavaScript** and allows users to create tasks, mark them as completed, edit them, and keep track of their completed and uncompleted tasks.
